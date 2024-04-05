@@ -47,8 +47,10 @@ btn_calcular_media.addEventListener('click', ()=>{
                 mostrar_resultado("red", media)
             }
             
+            // Limpa os campos 
             limpar_input()
 
+            // Remove todos os valores do array 
             notas = []
         }else{
             alert('Só são permitidas notas até 10... 🤚🏻')
