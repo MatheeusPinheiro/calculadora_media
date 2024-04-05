@@ -31,8 +31,7 @@ btn_calcular_media.addEventListener('click', ()=>{
             /*
                 - Se a nota for maior ou igual a 5 e menor ou igual a 6.99 a cor vai ser amarelo
                 - Se a nota for maior ou igual 7 a cor vai ser verder
-                - Se a nota for maior ou igual 7 a cor vai ser verder
-
+                - Se a nota for menor que 5 a cor vai ser vermelho
             */
 
             if (parseFloat(media) >= 5 && parseFloat(media) <= 6.99){
@@ -52,12 +51,12 @@ btn_calcular_media.addEventListener('click', ()=>{
 
             notas = []
         }else{
-            alert('Só são permitidas notas até 10... 🤬')
+            alert('Só são permitidas notas até 10... 🤚🏻')
             limpar_input()
         }
 
     }else{
-        alert('Informe todas as 3 notas para continuar... 🤬')
+        alert('Informe todas as 3 notas para continuar... 👽')
     }
     
   
